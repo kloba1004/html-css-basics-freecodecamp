@@ -10,7 +10,7 @@ body{
     background-color: hsl(275, 86%, 36%);
     border-radius:15px;
 }
-h1{
+#title{
     position:relative;
     bottom:25px;
 }
@@ -18,19 +18,28 @@ h1{
     text-align:center;
     position:relative;
     bottom:25px;
-    font-weight:
 }
 #slike{
+    background-color: white;
+    border-radius:10px;
+    color:hsl(275, 86%, 36%);
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
     align-items:baseline;
-    background-color: white;
-    border-radius:10px;
-    margin: 0 -10px 0 -10px;
-    color:hsl(275, 86%, 36%);
 }
-#lista{
+#image{
+    display:block;
+    max-width:100%;
+    height: auto;
+    border: hsl(275, 86%, 36%) 5px solid;
+    margin:auto;
+}
+#img-div{
+    position:relative;
+    left:15px;
+}
+#tribute-info{
     text-align:left;
     max-width:550px;
     margin:auto;
@@ -44,17 +53,17 @@ a{
     color:white;
 }
 #youtubelink{
-    position:relative;
-    top:5px;
     color:hsl(275, 86%, 26%);
 }
-#opis-slike{
-    position: relative;
-    top:5px;
-}
+
 #footer{
     background-color: hsl(275, 86%, 26%);
     margin:-30px;
     border-radius:5px;
     padding:10px;
+}
+@media (max-width:500px){
+    body{
+        font-size: 10px;
+    }
 }
