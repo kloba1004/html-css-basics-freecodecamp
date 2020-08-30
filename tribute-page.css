@@ -39,31 +39,45 @@ body{
     position:relative;
     left:15px;
 }
+#image1{
+    display:block;
+    max-width:100%;
+    height: auto;
+    border: hsl(275, 86%, 36%) 5px solid;
+    margin:auto;
+}
+#img-div1{
+    position:relative;
+    left:15px;
+}
 #tribute-info{
     text-align:left;
-    max-width:550px;
+    max-width:650px;
     margin:auto;
+    line-height: 50px;
 }
 p{
     text-align:left;
     margin:auto;
     max-width:1150px;
+    line-height: 50px;
+    padding-bottom: 50px;
 }
 a{
     color:white;
 }
 #youtubelink{
     color:hsl(275, 86%, 26%);
+    line-height:50px;
 }
+#img-caption1{
+    line-height:50px;
 
+}
 #footer{
     background-color: hsl(275, 86%, 26%);
     margin:-30px;
     border-radius:5px;
     padding:10px;
-}
-@media (max-width:500px){
-    body{
-        font-size: 10px;
-    }
+    line-height:50px;
 }
