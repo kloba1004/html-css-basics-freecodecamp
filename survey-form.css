@@ -1,0 +1,54 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    position:relative;
+    z-index:0;
+    color:white;
+}
+body::before{
+    content:"";
+    background-image:url(https://wallpaperset.com/w/full/1/6/8/155013.jpg);
+    background-size:cover;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0.5;
+    z-index:-1;
+}
+#title, #description{
+    text-align:center;
+}
+#survey-form{
+    background-color: hsl(240, 60%, 10%);
+    opacity:0.7;
+    border-radius:5px;
+    padding:3em 2.5em 3em 2.5em;
+    line-height:2em;
+}
+#name, #email, #number, #comment{
+      box-sizing: border-box;
+      width:100%;
+      font-size:1rem;
+      border-radius: 0.3em;
+      padding:0.5em;
+}
+#dropdown, #feature{
+    width:100%;
+    background-color:white;
+    font-size:1rem;
+    padding:0.5em;
+    border-radius:0.3em;
+}
+[type='submit']{
+    width:100%;
+    border:none;
+    background-color:hsl(140, 100%, 30%);
+    font-size:1rem;
+    padding:0.5rem;
+    border-radius:0.3em;
+}
