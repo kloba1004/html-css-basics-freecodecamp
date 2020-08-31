@@ -19,7 +19,7 @@
             <br>Email<br><input id="email" type="email" placeholder="Enter your Email" required>
         </label>
         <label for="number" id="number-label">
-            <br>Age (optional)<br><input id="number" type="number" min="18" max="99" placeholder="Age">
+            <br>Age <span class=smaller-text>(optional)</span><br><input id="number" type="number" min="18" max="99" placeholder="Age">
         </label>
         <label for="dropdown">
             <br>Which option best describes your current role?<br>
@@ -40,7 +40,7 @@
             <input id="maybe" type="radio" name="recommend" value="maybe">Maybe
         </label><br>
         <label for="not-sure">
-            <input id="not-sure" type="radio" name="not-sure" value="not-sure">Not sure
+            <input id="not-sure" type="radio" name="recommend" value="not-sure">Not sure
         </label><br>
         <label for="feature">
             What is your favourite  feature of freeCodeCamp?<br>
@@ -52,7 +52,7 @@
                 <option value="open-source">Open Source</option>
             </select>
         </label>
-        <p> What would you like to see improved? (Check all that apply) </p>
+        <p> What would you like to see improved? <span class="smaller-text">(Check all that apply)</span></p>
         <label for="front-end">
             <input id="front-end" type="checkbox" name="front-end" value="front-end">Front-end Projects
         </label><br>
@@ -90,7 +90,7 @@
         <label for="comment">
             <textarea id="comment" name="comment" placeholder="Enter your comment here..."></textarea>
         </label><br>
-        <button type="submit">Submit</button>
+        <button type="submit" id="submit">Submit</button>
     </form>
 </main>
 </body>

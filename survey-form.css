@@ -4,6 +4,7 @@ body{
     align-items: center;
     margin:0;
     font-family: 'Poppins', sans-serif;
+    font-size:1.1vw;
     position:relative;
     z-index:0;
     color:white;
@@ -21,7 +22,17 @@ body::before{
     z-index:-1;
 }
 #title, #description{
-    text-align:center;
+    text-align:center;    
+}
+@media(max-width:400px){
+    body{
+        font-size:3vw;
+    }
+}
+@media(min-width:2000px){
+    #title, #description, #survey-form{
+        font-size:25px;
+    }
 }
 #survey-form{
     background-color: hsl(240, 60%, 10%);
@@ -44,11 +55,14 @@ body::before{
     padding:0.5em;
     border-radius:0.3em;
 }
-[type='submit']{
+#submit{
     width:100%;
     border:none;
     background-color:hsl(140, 100%, 30%);
     font-size:1rem;
     padding:0.5rem;
     border-radius:0.3em;
+}
+.smaller-text{
+    font-size:0.7em;
 }
