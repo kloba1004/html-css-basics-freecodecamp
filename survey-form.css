@@ -30,7 +30,7 @@ body::before{
     }
 }
 @media(min-width:2000px){
-    #title, #description, #survey-form{
+     #title, #description, #survey-form{
         font-size:25px;
     }
 }
