@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="product-landing-page.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header id="header">
+    <div class="logo-container">
+    <img id="header-img" src="https://iconsplace.com/wp-content/uploads/_icons/000000/256/png/trombone-icon-256.png" alt="logo">
+    <h4 id="logo">Original Trombones</h4>
+    </div>
+    <nav id="nav-bar">
+        <ul id="nav-links">
+        <li><a class="nav-link" href="#materials">Features</a></li>
+        <li><a class="nav-link" href="#video">How It Works</a></li>
+        <li><a class="nav-link" href="#offers">Pricing</a></li>
+        </ul>
+    </nav>
+    </header>
+   
+    <main>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <h3 id="form-caption">Handcrafted, home-made masterpieces</h3>
+        <input id="email" name="email" type="email" placeholder="Enter your email address" required>
+        <input id="submit" type="submit" value="GET STARTED">
+        </form>
+        <div id="materials">
+        <img class="fire-img" src="data:image/png;base64,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" alt="">
+        <div class="text">
+        <h2>Premium Materials</h2>
+        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+        </div>
+        </div>
+        <div id="shipping">
+        <img class="side-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAB8CAMAAACcwCSMAAAAdVBMVEX/////pQD/ogD/oAD/v3P/yoD/zYn/zpn/wnb/0Zv/ngD/qQD/ulX/yIL/xXv/0JD/26v/+e7//vr/rTf/79n/1Zz/16X/37L/sT3/sET/vF7/5L3/sDb/0pb/9uf/vmX/68//qyf/wm7/4cD/qBj/tUv/6MdJZV9+AAAEBklEQVRoge2a2ZajIBCGFVonQ2dcaKMmLolGff9HHCOiqOAWY07n8N90nwj1SRViWaAoUlJSUlJSUlJP6nb3LNd1/zL6MyK2XdnN8u7OarR9hM8KXPFK+BmqTwte1rGDDdiqioJV8GgbuLsKroNN4KdV8H+/Hw6jVXDjA+Dm74MfPgCuvxEOJFzC5+nrg+D2LfA8z3rIfejxT/lDUDi8ZGcjuEasmRCJFHIyvU3hGhppAouXwp3xRnAw9i3hE/kgyOIXwr2JfBDk9uvg7lQyCtPXwU+TtpD5Ovh0Gg6DV8G73wDZT60kydSWYu8BB0dsE8Vx7GgUA3IGvtGLpYKbXXgnvFd6jQ37XnAcUhDzXbcXnFn+2rVmN7ji0YUf5Hh3uGLQy02uuyNcSZqw3/aHO831DG8O1yfg7ZsHXveHK2nztHv7w22f4pJ4d7hyaxx/2B+uRM3TftsfrlDHg8sb4HHzfov3hytW3Qq6b4ArR4IEXxvVZBbBC/g2OMbxz8vhqvo9UNUU0On+UvhUHwmXcAmX8E+Gb7PBszkcQAiqPzNuTwAnfQHfxAgcgFD3bo7jFO41m+Rz4VA9noLSwi2IfDC0IIRD1WQqdjgIR0qLlSF9AEehx5RbYzfrmxDBUdQv0xbJaDwHcJh5/SzC7fmPDwcJp0Zrp2OD78Ph1R6aiMPOALhw4PerlMT3o1XdLhwa3N18+9LJszhwELZsXKrtm4o9DztwwBQaOybwkaFxR974PDDyTPVTq+l8FdLJpl4NZ1JH7+AnSf6vKXbbySi8qRUFGaqeD4CgXuOxL3rkOvCMxvsEEXnO0Tedfk4buyG88RgbYUhnYCEaOtlFJnBUg+ycaY3SegBt9WIIRzEvvoDG4iIYOtm8r+C01hT7HROw/hmLR07DZfaGCELiykIw48mZiaoXsuq51TNBy91NjbSEdyvF8N6PDL1gEJOhAF5NqarOB8htRgMT9Wxqv1K/SnMsva4SHTkrD3E8/8UFfTIqHamAlHrsbNgqI41oHfRRD7NzRA/6AHQRDLy0r9V+B12V/RBqSoo6qg+tWJybrKtvesVDauVkbEWRaeq6phkp8YzLi2xC/J5qPenmidmzik1bODPrHX4nOpWyuMuoyLcZZ7UWK+FYqCMyIW5qNdiXGhPmGGAKvsvhS0b+BFx7Gq5wJvtMt1viCTdXIxNuQjHvUVu2Qz7yqK2572VnDWOO32f6jrO8Hhaxy3V+uLwOsjqB9F5XkCyabqVw3n+xzJpulbrpIljo9Ifibr4LL/MPaWKdSXRhuGSBobKPzADQYdEB0eL8eNU8Xh2Jvu5kKY4SYgLCn7nxbvFmfj6fD97ScLeyA6O0cDbua8/FSklJSUlJSUmN6D9hS1OGixb8TAAAAABJRU5ErkJggg==" alt="">
+        <div class="text">
+        <h2>Fast shipping</h2>
+        <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+        </div>
+        </div>
+        <div id="assurance">
+        <img class="side-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAACCCAMAAAC93eDPAAAAe1BMVEX/////pQD/owD/pAD//fb/oQD/tDz/v13/+u//tUT/9OP/qiX//fn/tUf/79j///3/yHT/4rX/6MX/xWv/5b//qBz/vWP/7tv/uVP/ynv/wHH/vmn/nAD/7s//1Jf/xoT/yY7/rzH/w3r/26n/0Y//15//z4f/uVr/rBFxDPlWAAADHUlEQVR4nO2a63KrIBCAo0jilahRaxq1MTa27/+ExztewKTNAftjv5nOpNbINxQWZHe3AwAAAAAAAAAA+F8cW2wWGhfm7S3dA59sPs0+bpeKKIriAYey52I4S7rvf1VPiy6X99vtes3M1fbJWUkwxuoKiMvatzpwTbL3bJ6A/hlipIhHxXHK6QJHikANDgvmIFCwJIEKhM8MA6TKM6hIssU4MCT2QQ1C/kyhlGxQjQdHmxiYiqyROHK4TxTOtBMQ7iLDL6SeCQ305nzcDXY+tIfzW3YvCq8iaPA5BAy8x0TUAQfjkICpwXr8fBmbjrrJxPSS/r8QCjaoGPoBH+jFY8m6KgpiIYaCOyiUo6v/m+65uqEyFE6DQjdR9CIrz2fXdU8dh47TAneF8xjXX1M4DArt8pGGWAR3voL91a8P2Kt/176FxEqEAn4vUIXmpiLhPuYl8N5mKxw1M+4jU6vwIWjBQJgsFPTMMPZ5blHPVLICMdptIl0Nmnt2N2kKx3jRlGwFb9lSIlnhwFN4F7SHe0oBg8KfUEDbKdSvhO2n+p5jJF8h9NIGQoi9lcLbZFsDCqAACqAACs1ftlf4A70ACqAAClMFX2/QNHsrBSVssazv7TbxfV5l+/eIP/AqAwqbKBTbH3Fo+80PenZ+iNvU50xB5qEfOVlW+K3QrJD0Q78KTTdNkjrTo09RuTK2Qrsuzc6g74IOgNts1FPH4DoWMiuR2pzzP5cM8JQH+fvfgLtc1COFLiVCysO0bOE3xFOcPt3yICszZJKbMg52IcezzPJCfdGC7rAUaHrM3QnHzBkKNAeCLF24AjsdmNL0pSPagc74cTpwp1s0PhqFX5/+1Zg/g8x5W1whpKTZjzYC9JxoPFSx0m0kf0rY/oSjj0toscosM5xOYxG/bOdlaCPzWpKL9BIKdZ6gH2aKNPCiqCeQVlHUGbjLerNAzNrEBuGINWH9XNp4UFHJrrkjBzkdgXDu8ar+bC/vquzETMh2yU6Uz9UInGbXWxSvlBS+ghF/vV8/A26dH+W4Vlj5CtUC/rh1AAAAAAAAAACANf4BWMp9Ks89tagAAAAASUVORK5CYII=" alt="">
+        <div class="text">
+        <h2>Quality Assurance</h2>
+        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        </div>
+        </div>
+        <iframe id="video" width="575" height="325" src="https://www.youtube.com/embed/y8Yv4pnO7qc" allow="accelerometer; autoplay; encrypted-media; 
+        gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <div id="offers">
+            <div class="box">
+                <h3 class="trombone">TENOR TROMBONE</h3>
+                <h4 class="money">$600</h4>
+                <p class="offer-description">Lorem ipsum.<br>Lorem ipsum.<br>Lorem ipsum dolor.<br>Lorem ipsum.</p>
+                <button class="select" type="submit">SELECT</button>
+            </div>
+            <div class="box">
+                <h3 class="trombone">BASS TROMBONE</h3>
+                <h4 class="money">$900</h4>
+                <p class="offer-description">Lorem ipsum.<br>Lorem ipsum.<br>Lorem ipsum dolor.<br>Lorem ipsum.</p>
+                <button class="select" type="submit">SELECT</button>
+            </div>
+            <div class="box">
+                <h3 class="trombone">VALVE TROMBONE</h3>
+                <h4 class="money">$1200</h4>
+                <p class="offer-description">Plays similar to a Trumpet<br>Great for Jazz Bands<br>Lorem ipsum dolor.<br>Lorem ipsum.</p>
+                <button class="select" type="submit">SELECT</button>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <ul id="footer-links">
+            <li><a class="footer-link" href="#">Privacy</a></li>
+            <li><a class="footer-link" href="#">Terms</a></li>
+            <li><a class="footer-link" href="#">Contract</a></li>        
+        </ul>
+        <p id="copyright">Copyright 2016, Original Trombones</p>
+    </footer>
+</body>
+</html>
