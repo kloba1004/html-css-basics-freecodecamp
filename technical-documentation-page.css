@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Livvic', sans-serif;
+    display: flex;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border-right: grey 5px solid;
+    position: sticky;
+    top: 0%;
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1; 
+}
+nav header, #main-doc header{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 2vh 0.1vw 2vh 1vw;
+}
+#main-doc{
+    flex: 5;
+    z-index: 0;
+}
+#main-doc p{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 0px 1vw 1vh;  
+}
+#main-doc ul{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 0px 7.5vw;
+}
+li{
+    padding: 0px 0px 1vh;
+}
+code{
+    display: block;
+    width: 90%;
+    padding: 10px 10px;
+    margin: 1vh 0px 1vh 2vw;
+    background: hsl(0, 0%, 95%);
+    line-height: 20px;
+}
+nav a{
+    font-size: 17px;
+    font-weight: 300;
+    border-top: black 1px solid;
+    width: 100%;
+    padding: 0.75vh 1vw;
+
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+#empty-circle{
+    list-style-type: circle;
+    position: relative;
+    left: 50px;
+    z-index: 0;
+}
+@media screen and (max-width: 1250px){
+    #navbar{
+        position: absolute;
+        top: 0%;
+        border: none;
+        border-bottom: grey 2.5px solid;
+        width: 100%;
+        text-align: center;
+        height: 200px;
+    }
+    #main-doc{
+        margin-top: 200px;
+    }
+    nav a{
+        font-size: 15px;
+        font-weight: 300;
+        border-top: black 1px solid;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: black;
+        padding: 5px 5px;
+    }
+    nav header{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 15px 20px;
+        border-bottom: grey 2.5px solid;
+    }
+    #empty-circle{
+        left: 20px;
+    }
+}
